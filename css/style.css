@@ -398,6 +398,29 @@ nav .menu .menu-content {
 
 /* >>>>>>>>>>>>>>>>>  Proyectos <<<<<<<<<<<<<<<<<< */
 
+.project-1 {
+  --product-color: #feb600b6;
+	--position-vertical: 40%;
+	--position-vertical-hover: 25%;
+}
+.project-2 {
+  --product-color: #a80d94;
+	--position-vertical: 40%;
+	--position-vertical-hover: 25%;
+}
+.project-3 {
+  --product-color: #1644c4;
+	--position-vertical: 40%;
+	--position-vertical-hover: 25%;
+
+}
+.product-4 {
+  --product-color: #3E3A4C;
+}
+.product-5 {
+  --product-color: #FEB500;
+}
+
 .cards-container{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(204px, 1fr));
@@ -406,7 +429,7 @@ nav .menu .menu-content {
 }
 .card {
   position: relative;
-  width: 204px;
+  width: 210px;
   height: 276px;
   background: #232323;
   border-radius: 20px;
@@ -431,6 +454,8 @@ nav .menu .menu-content {
   font-weight: 600;
   letter-spacing: 1px;
   margin-top: 12px;
+  font-size: var(--card-title);
+
 }
 .bg-title {
   font-size: 4em;
@@ -458,8 +483,8 @@ nav .menu .menu-content {
 	transform: translateY(-20%);
 }
 .photo img {
-  width: 120px;
-  transform: translate(40%, var(--position-vertical));
+  width: 100px;
+  transform: translate(50%, var(--position-vertical));
   transition: all .7s;
 	
 }
@@ -535,28 +560,7 @@ nav .menu .menu-content {
 	width: 20px;
 }
 
-.project-1 {
-  --product-color: #FEB500;
-	--position-vertical: 40%;
-	--position-vertical-hover: 25%;
-}
-.project-2 {
-  --product-color: #a80d94;
-	--position-vertical: 40%;
-	--position-vertical-hover: 25%;
-}
-.project-3 {
-  --product-color: #1644c4;
-	--position-vertical: 90%;
-	--position-vertical-hover: 45%;
 
-}
-.product-4 {
-  --product-color: #3E3A4C;
-}
-.product-5 {
-  --product-color: #FEB500;
-}
 
 /* >>>>>>>>>>>>>>>>>  Trayectoria <<<<<<<<<<<<<<<<<< */
 
@@ -757,12 +761,6 @@ nav .menu .menu-content {
 }
 
 @media screen and (min-width: 568px) {
-
-	/* Proyectos */
-	:root {
-		--card-title: 1.8rem;
-		--card-subtitle: .8rem
-	}
 
 
 	.footer-content {

@@ -11,6 +11,16 @@
 
 ---
 
+## 📸 Preview
+
+### Escritorio
+![Portfolio Desktop](.//portfolio-preview.png)
+
+### Móvil
+![Portfolio Mobile](.//portfolio-preview-mobile.png)
+
+---
+
 ## ⭐ Características
 
 - **Diseño escuro** con paleta de colores en tonos azules
