@@ -412,14 +412,13 @@ nav .menu .menu-content {
   --product-color: #1644c4;
 	--position-vertical: 40%;
 	--position-vertical-hover: 25%;
+}
+.project-4 {
+  --product-color: #e85d04;
+	--position-vertical: 40%;
+	--position-vertical-hover: 25%;
+}
 
-}
-.product-4 {
-  --product-color: #3E3A4C;
-}
-.product-5 {
-  --product-color: #FEB500;
-}
 
 .cards-container{
 	display: grid;
@@ -429,8 +428,8 @@ nav .menu .menu-content {
 }
 .card {
   position: relative;
-  width: 210px;
-  height: 276px;
+  width: 250px;
+  height: 280px;
   background: #232323;
   border-radius: 20px;
   overflow: hidden;
@@ -465,7 +464,7 @@ nav .menu .menu-content {
   max-width: 120%;
 	position: absolute;
   transition: 0.8s ease-in-out;
-	transform: translateY(-130%);
+  top: -50px;
 	
 }
 .card:hover .bg-title {
