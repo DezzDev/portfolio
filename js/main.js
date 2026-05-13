@@ -73,12 +73,12 @@ function typeEffect() {
   }
 }
 
+
 // >>>>>>>>>>>>>> Trayectoria <<<<<<<<<<<<<<<<<
 
-const tabs = document.querySelectorAll('[data-target]')
-const trayectoriaContents = document.querySelectorAll('.trayectoria-section-content')
-
 function trayectoriaActive(e){
+  const tabs = document.querySelectorAll('[data-target]')
+  const trayectoriaContents = document.querySelectorAll('.trayectoria-section-content')
   // recuperamos el id del content que deseamos ver
   const targetId = e.target.dataset.target
   const target = document.querySelector(targetId)
@@ -100,10 +100,10 @@ function trayectoriaActive(e){
   e.target.classList.add('active')
 }
 
-// Scroll section and active link
-const sections = document.querySelectorAll('section[id]')
 
+// Scroll section and active link
 function scrollActive(){
+  const sections = document.querySelectorAll('section[id]')
   // constante con la cual tenemos el valor del scroll en todo momento
   const scrollY = window.scrollY
 

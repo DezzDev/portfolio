@@ -53,9 +53,9 @@
 	/* >>>>>>>>>>>>>>>>>  Index <<<<<<<<<<<<<<<<<< */
 	--z-tooltip: 1;
 	/*10*/
-	--z-fixed: 2;
+	--z-fixed: 3;
 	/*100*/
-	--z-modal: 3;
+	--z-modal: 4;
 	/*1000*/
 
 	/* >>>>>>>>>>>>>>>>>  Z levels for cards <<<<<<<<<<<<<<<<<< */
@@ -401,22 +401,22 @@ nav .menu .menu-content {
 .project-1 {
   --product-color: #feb600b6;
 	--position-vertical: 40%;
-	--position-vertical-hover: 25%;
+	--position-vertical-hover: 5%;
 }
 .project-2 {
   --product-color: #a80d94;
 	--position-vertical: 40%;
-	--position-vertical-hover: 25%;
+	--position-vertical-hover: 5%;
 }
 .project-3 {
   --product-color: #1644c4;
 	--position-vertical: 40%;
-	--position-vertical-hover: 25%;
+	--position-vertical-hover: 5%;
 }
 .project-4 {
   --product-color: #e85d04;
 	--position-vertical: 40%;
-	--position-vertical-hover: 25%;
+	--position-vertical-hover: 5%;
 }
 
 
@@ -472,15 +472,13 @@ nav .menu .menu-content {
 	
 }
 .photo {
-  z-index: 10;
+  z-index: 2;
   width: 100%;
   transition: .5s;
 	position: relative;
 	
 }
-.card:hover .photo {
-	transform: translateY(-20%);
-}
+
 .photo img {
   width: 100px;
   transform: translate(50%, var(--position-vertical));
@@ -488,7 +486,7 @@ nav .menu .menu-content {
 	
 }
 .card:hover .photo img {
-  transform: translate(75%, var(--position-vertical-hover));
+  transform: translate(100%, var(--position-vertical-hover));
 	width: 100px;
 	transition-delay: 0s;
 }
@@ -499,7 +497,7 @@ nav .menu .menu-content {
   height: 120px;
   text-align: center;
   transition: 1s;
-  z-index: 5;
+  z-index: 1;
 	padding: 0 5px 0 5px;
 }
 .card:hover .content {
