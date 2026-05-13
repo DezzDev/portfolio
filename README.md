@@ -7,7 +7,7 @@
 
 ## 🚀 Live Demo
 
-[**Ver Portafolio →**](https://dezzdev.github.io/portfolio-vanilla/)
+[**Ver Portafolio →**](https://dezzdev.github.io/portfolio/)
 
 ---
 
