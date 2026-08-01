@@ -43,7 +43,7 @@ function toogleMenu() {
 // >>>>>>>>>>>>>> typing effect <<<<<<<<<<<<<<<<<
 
 const dynamicText = document.querySelector('.typing-effect span')
-const words = ['Pasión', 'Arte', 'Futuro', 'Divertido']
+const words = ["JavaScript", "TypeScript","React", "Node.js", "Java", "Spring Boot"]
 let wordIndex = 0
 let charIndex = 0
 let isDeleting = false
@@ -190,7 +190,7 @@ function formValidation(e){
 
 
 	// add parameters to the mailto link
-	const emailLink = `mailto:thedezz360@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}` 
+	const emailLink = `mailto:daniel-dezz@hotmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}` 
 
 	// open email client with custom link
 	window.location.href = emailLink
